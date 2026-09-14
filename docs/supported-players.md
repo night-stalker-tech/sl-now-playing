@@ -83,6 +83,22 @@ This does not necessarily indicate a problem with SL Now Playing.
 
 ---
 
+## Discord
+
+SL Now Playing provides limited support for media playback inside Discord.
+
+### Supported
+
+Embedded YouTube videos played directly inside Discord can be detected by SL Now Playing.
+
+### Currently Not Supported
+
+Other Discord media files are currently not supported.
+
+This includes media files played directly through Discord that are not embedded YouTube content.
+
+---
+
 ## A Player Is Not Detected
 
 If your media is playing but SL Now Playing does not detect it:
