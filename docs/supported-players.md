@@ -85,11 +85,13 @@ This does not necessarily indicate a problem with SL Now Playing.
 
 ## Discord
 
-SL Now Playing provides limited support for media playback inside Discord.
+SL Now Playing provides limited support for media playback inside Discord through Windows Media Detection.
 
 ### Supported
 
-Embedded YouTube videos played directly inside Discord can be detected by SL Now Playing.
+Embedded YouTube videos played directly inside Discord can be detected by SL Now Playing when no higher-priority supported media source is active.
+
+Discord is treated as a lower-priority Windows Media source and does not override higher-priority sources such as Spotify or directly detected YouTube playback.
 
 ### Currently Not Supported
 
