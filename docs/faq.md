@@ -24,6 +24,24 @@ You can download the PC application through the Download option provided by your
 
 ---
 
+## Why does Windows warn me about or block SL Now Playing?
+
+SL Now Playing is currently an unsigned Windows application.
+
+Microsoft Defender SmartScreen may display an "unknown app" warning when starting the installer.
+
+On some Windows 11 systems, Smart App Control may block SL Now Playing completely.
+
+SmartScreen normally provides a **More info → Run anyway** option.
+
+Smart App Control does **not** provide a Run anyway option for an individual blocked application. If Smart App Control blocks SL Now Playing, you may need to change your Smart App Control settings in Windows Security before the application can run.
+
+For detailed instructions, see:
+
+[Troubleshooting](troubleshooting.md)
+
+---
+
 ## Do I need to keep the PC Application running?
 
 Yes.
