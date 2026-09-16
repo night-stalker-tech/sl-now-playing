@@ -8,6 +8,18 @@ The SL Now Playing HUD displays information about the music you are currently li
 
 ---
 
+## ⚠️ Windows Security Notice
+
+SL Now Playing requires a Windows application and is currently unsigned.
+
+Microsoft Defender SmartScreen may display an "unknown app" warning when starting the installer.
+
+On some Windows 11 systems, **Smart App Control may completely block SL Now Playing** because the application is currently unsigned.
+
+If this happens, please see the [Troubleshooting Guide](docs/troubleshooting.md) before contacting support.
+
+---
+
 ## Documentation
 
 ### 🚀 Getting Started
