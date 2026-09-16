@@ -92,13 +92,61 @@ If the problem continues, contact TEKIZMO Support.
 
 ---
 
-## Windows Displays a Security Warning
+## Windows Displays a Security Warning or Blocks SL Now Playing
 
-Windows security features may display a warning when starting downloaded applications.
+SL Now Playing is a new Windows application and is currently unsigned.
 
-Make sure your copy of SL Now Playing was obtained through the official download process provided by the SL Now Playing HUD.
+Depending on your Windows security settings, Microsoft Defender SmartScreen may display a warning or Windows 11 Smart App Control may block the application.
+
+Always make sure your copy of SL Now Playing was obtained through the official download process provided by the SL Now Playing HUD.
 
 Do not download SL Now Playing from unofficial third-party sources.
+
+### Microsoft Defender SmartScreen
+
+Microsoft Defender SmartScreen may display an "unknown app" warning when starting the SL Now Playing installer.
+
+If you downloaded the installer using the official download link provided by your SL Now Playing HUD:
+
+1. Select **More info**
+2. Select **Run anyway**
+3. Continue the installation
+
+On a German Windows installation:
+
+**Weitere Informationen → Trotzdem ausführen**
+
+This warning may appear because SL Now Playing has not yet established a reputation with Microsoft SmartScreen.
+
+### Windows 11 Smart App Control
+
+On some Windows 11 systems, Smart App Control may completely block SL Now Playing because the application is currently unsigned.
+
+You may see a message such as:
+
+> Smart App Control has blocked an app
+
+or on a German Windows installation:
+
+> Smart App Control hat eine App blockiert
+
+Unlike a Microsoft Defender SmartScreen warning, Smart App Control does **not** provide a **Run anyway** option for an individual blocked application.
+
+If Smart App Control is enabled and blocks SL Now Playing, check:
+
+**Windows Security → App & browser control → Smart App Control settings**
+
+You may need to change your Smart App Control settings before SL Now Playing can run.
+
+This Windows security/reputation behavior does not indicate a problem with your SL Now Playing license or pairing.
+
+After resolving the Windows security block:
+
+1. Make sure the SL Now Playing HUD is attached in Second Life.
+2. Start the SL Now Playing PC Application again.
+3. Allow the automatic pairing process to complete.
+
+If SL Now Playing still does not connect, continue with the other troubleshooting steps on this page.
 
 ---
 
